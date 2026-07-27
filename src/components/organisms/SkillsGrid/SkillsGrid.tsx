@@ -1,4 +1,5 @@
 import {
+  Cloud,
   Database,
   LayoutTemplate,
   Server,
@@ -15,7 +16,7 @@ const iconByCategory: Record<string, LucideIcon> = {
   Frontend: LayoutTemplate,
   Backend: Server,
   "Bases de datos": Database,
-  "DevOps & Tools": Wrench,
+  "Cloud & DevOps": Cloud,
 };
 
 export function SkillsGrid() {
